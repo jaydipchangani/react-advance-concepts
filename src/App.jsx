@@ -1,4 +1,5 @@
 import "./App.css";
+import CompundComponents from "./components/CompundComponents";
 import Hoc from "./components/Hoc";
 import RenderProps from "./components/RenderProps";
 
@@ -8,6 +9,7 @@ function App() {
       App here
       <Hoc />
       <RenderProps />
+      <CompundComponents />
     </>
   );
 }

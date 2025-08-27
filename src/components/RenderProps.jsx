@@ -51,11 +51,13 @@ function RenderProps() {
         {(data) =>
           data ? (
             <table border={1}>
-              <tr>
-                {data.map((u) => (
-                  <td key={u.id}>{u.name}</td>
-                ))}
-              </tr>
+              <tbody>
+                <tr>
+                  {data.map((u) => (
+                    <td key={u.id}>{u.name}</td>
+                  ))}
+                </tr>
+              </tbody>
             </table>
           ) : (
             <p>Loading...</p>
