@@ -1,7 +1,13 @@
 import "./App.css";
+import Hoc from "./Hoc";
 
 function App() {
-  return <>Hello there !!</>;
+  return (
+    <>
+      App here
+      <Hoc />
+    </>
+  );
 }
 
 export default App;
